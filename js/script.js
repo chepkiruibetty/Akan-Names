@@ -43,3 +43,24 @@ var dateOfBirth =newDate(year +"/"+ month + "/" +day);
 var output=parseInt(document.getElementById(output).value);
 var male=parseInt(document.getElementById("male"));
 var female=parseInt(document.getElementById("female"));
+
+//Validation
+
+if(year<0){
+    output.style. background="red"
+    output.style. color="black"
+    output.innerHTML="Oops!" + name + "Enter a valid year!"
+};
+else if((month < 1) || (month > 31)) {
+    output.style.background ="red"
+    output.style.color= "white"
+    output.innerHTML = "Hey!"+ name + " Please enter a valid month! "
+}
+
+else (day<0)|| day<31){
+    output.style. background="red";
+    output.style. color="black";
+    output.innerHTML="Oops!" + name + "Enter a valid day!"
+};
+//storing data in variables
+
