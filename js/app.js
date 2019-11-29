@@ -17,7 +17,7 @@ var MaleNames=[
     "Yaw",
     "Kofi",
     "Kwame",
-];
+];js
 
 var femaleNames=[
     "Akosua",
@@ -45,6 +45,6 @@ if(male.checked==true){
    alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + MaleNames[birthDay])
 }
 else(female.checked==true);{
- alert("You were born on " +daysOfWeek[birthday]+ "and your akan name is "+daysOfWeek[birthday]) 
+ alert("You were born on " +daysOfWeek[birthday]+ "and your akan name is "+femaleNames[birthday]) 
 }
 }
