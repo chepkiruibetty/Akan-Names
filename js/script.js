@@ -38,3 +38,20 @@ var name=parseInt(document.getElementById("name").value);
 var output=parseInt(document.getElementById("output").value);
 var male=parseInt(document.getElementById("male").value);
 var female=parseInt(document.getElementById("female").value);
+
+//date validation
+if(day<=0||day>=32){
+    alert("Oops!please enter a valid day!")
+};
+var day=new Date(year+"/" +month + "/" +"day");
+
+if( male.checked && year>0 && month<12 && day<32){
+    output.style.background="red"
+    alert("Cool!" +name+"you were born on a" + daysOfTheWeek(results)+"and your Akan Name is"+maleName)
+};
+else if(female.checked && year>0 && month<12 && day<12 && day>0 && day<32){
+    output.style.background="red"
+    alert("Cool"+name +"you were born on a"+daysOfTheWeek(results)+"and your Akan Name is "+femaleName)
+
+};
+
