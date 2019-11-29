@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Akan Name</title>
+    
+
 </head>
 <body>
     <div class="container">
@@ -17,24 +19,75 @@
     <div class="container-fluid">
         <h3>Simply know your "Akan Name" by filling out the form below</h3>
 
-         <div class="output">
-        <form>
-        <label>Year</label>
-        <input type="number" id="year" placeholder="Enter the year"required min="1980" max="2019">
-        <label>Month</label>
-
-        <input type="number" id="month" placeholder="Enter the month"required min="1" max="12">
-        <label>Day</label>
-
-        <input type="number" id="day" placeholder="Enter the day" required min="1" max="31">
-        male:<input type="radio" name="gender" value="male">
-        female:<input type="radio"  name="gender" value="female"
-        checked>
-        <button onclick="myFunction()">submit</button>
+     <div class="output">
+         <form onsubmit="event.preventDefault()">
+            <div class="form-group">
+                <label for="year">Year</label>
+                <input type="text"
+                required
+                id="year"
+                max="2019"
+                min="1990"
+                placeholder="enter"
+                max-length="4"
+                min-length="4"
+                class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="month">Month</label>
+                <input type="text"
+                placeholder="month"
+                id="month"
+                maxlength="2"
+                min="1"
+                max="12"
+                min-length="1"
+                required
+                 class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="day">Day</label>
+                <input type="text"
+                id="day"
+                placeholder="day"
+                min="1"
+                max="31"
+                min-length="1"
+                max-length="2"
+                required
+                 class="form-control">
+            </div>
+            <div class="form-group">
+                    <div>
+							<label for="radio" class="radio-inline">
+								<input
+									type="radio"
+									value="female"
+									name="gender"
+									id="male"
+									required
+								/>
+								Male </label
+							><br />
+							<label for="radio" class="radio-inline">
+								<input
+									type="radio"
+									value="female"
+									name="gender"
+									id="female"
+									required
+								/>
+								Female
+							</label>
+						</div>
+            </div>
+            <button type="submit" onclick="getName()" class="btn btn-outline-primary">get name</button>
+        </form>
       </div>
-      </form>
+     
      </div>
     </div>
- <script src="js/script.js"></script>   
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
