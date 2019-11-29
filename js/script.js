@@ -1,5 +1,6 @@
+function myFunction() {
+    
 //declaring arrays
-
 var daysOfWeek=[
     "Sunday",
     "Monday",
@@ -55,3 +56,4 @@ else if(female.checked && year>0 && month<12 && day<12 && day>0 && day<32){
 
 };
 
+};
