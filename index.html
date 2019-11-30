@@ -62,7 +62,7 @@
 							<label for="radio" class="radio-inline">
 								<input
 									type="radio"
-									value="female"
+									value="male"
 									name="gender"
 									id="male"
 									required
@@ -72,7 +72,7 @@
 							<label for="radio" class="radio-inline">
 								<input
 									type="radio"
-									value="female"
+									value="male"
 									name="gender"
 									id="female"
 									required
@@ -81,7 +81,7 @@
 							</label>
 						</div>
             </div>
-            <button type="submit" onclick="getName()" class="btn btn-outline-primary">get name</button>
+            <button type="submit" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">submit</button>
         </form>
       </div>
      
