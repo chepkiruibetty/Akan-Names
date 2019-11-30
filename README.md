@@ -34,7 +34,7 @@ GIT (for version control)
 ## Support and contact details
 
  My Technical Mentor:Lawrence Karanja
- Contacts:+254727325535
+ My contacts:+254727325535
 
 ## Licence
 
