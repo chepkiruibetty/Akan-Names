@@ -37,6 +37,13 @@ var day=parseInt(document.getElementById("day").value);
 var male = document.getElementById("male");
 var female = document.getElementById("female");
 
+//validation
+if(day<=0||day>31)
+alert("Oops!please enter a valid day");
+else if(month<0||month>12)
+alert("Oops!please enter a valid month");
+
+
 var day = new Date(year + "/" + month + "/" + day);
 
 var birthDay=day.getDay();
