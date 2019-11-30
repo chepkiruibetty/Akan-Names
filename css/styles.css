@@ -41,6 +41,16 @@ input {
   input[type=radio]{
       font-size:20px;
   }
+  .footer{
+    background-color:grey;
+    text-align: center;
+    color: black;
+    padding-bottom: 2%;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    margin-top:20px;
+  }
   
     
   
