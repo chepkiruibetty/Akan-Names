@@ -22,7 +22,7 @@ Page loads and a form is displayed,the user enters form details and selects radi
 
 ## Known Bugs
 
-My website is not quite responsive, but i am working on m it  to make it work better.
+My website is not quite responsive, but i am working on  it  to make it work better.
 
 ## Technologies Used
 
