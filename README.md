@@ -18,7 +18,7 @@ use atom . or code . to open the clone repo on Atom or VS-code respectively
 
 ## Behaviour Driven Development (BDD)
 
-Page loads and a form is displayed,the user enters form details and selects radios and click submit.Their Akan name is displayed
+Page loads and a form is displayed,the user enters form details and selects radios and click submit and their Akan name is displayed
 
 ## Known Bugs
 
@@ -26,15 +26,15 @@ My website is not quite responsive, but i am working on m it  to make it work be
 
 ## Technologies Used
 
-JAVASCRIPT:Used for validating inputs and returning errors
-HTML5
-CSS3
-GIT (for version control)
+- JAVASCRIPT:Used for validating inputs and returning errors
+- HTML5
+- CSS3
+- GIT (for version control)
 
 ## Support and contact details
 
- My Technical Mentor:Lawrence Karanja
- My contacts:+254727325535
+- My Technical Mentor:Lawrence Karanja
+- My contacts:+254727325535
 
 ## Licence
 
